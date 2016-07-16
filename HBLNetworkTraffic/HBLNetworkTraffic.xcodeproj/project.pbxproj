@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C51EC9141D3690F100106519 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C51EC9131D3690F100106519 /* main.m */; };
+		C51EC9171D3690F100106519 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C51EC9161D3690F100106519 /* AppDelegate.m */; };
+		C51EC91A1D3690F100106519 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C51EC9191D3690F100106519 /* ViewController.m */; };
+		C51EC91D1D3690F100106519 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C51EC91B1D3690F100106519 /* Main.storyboard */; };
+		C51EC91F1D3690F100106519 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C51EC91E1D3690F100106519 /* Assets.xcassets */; };
+		C51EC9221D3690F100106519 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C51EC9201D3690F100106519 /* LaunchScreen.storyboard */; };
+		C51EC9301D36916E00106519 /* HBLNetworkObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = C51EC92F1D36916E00106519 /* HBLNetworkObserver.m */; };
+		C51EC9331D36921900106519 /* HBLNetworkInternalRequestState.m in Sources */ = {isa = PBXBuildFile; fileRef = C51EC9321D36921900106519 /* HBLNetworkInternalRequestState.m */; };
+		C51EC9361D36925500106519 /* HBLNetworkObserver+NSURLConnectionHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = C51EC9351D36925500106519 /* HBLNetworkObserver+NSURLConnectionHelpers.m */; };
+		C51EC9391D3692D700106519 /* HBLNetworkObserver+NSURLSessionTaskHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = C51EC9381D3692D700106519 /* HBLNetworkObserver+NSURLSessionTaskHelpers.m */; };
+		C51EC93C1D36934700106519 /* HBLNetworkRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = C51EC93B1D36934700106519 /* HBLNetworkRecorder.m */; };
+		C51EC93F1D36939A00106519 /* HBLNetworkTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = C51EC93E1D36939A00106519 /* HBLNetworkTransaction.m */; };
+		C51EC9421D3693F600106519 /* HBLNetworkUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = C51EC9411D3693F600106519 /* HBLNetworkUtility.m */; };
+		C51EC9461D36947F00106519 /* HBLNetworkTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C51EC9441D36947F00106519 /* HBLNetworkTestViewController.m */; };
+		C51EC9471D36947F00106519 /* HBLNetworkTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C51EC9451D36947F00106519 /* HBLNetworkTestViewController.xib */; };
+		C51EC95B1D38CA6E00106519 /* HBLNetworkDataUpload.m in Sources */ = {isa = PBXBuildFile; fileRef = C51EC95A1D38CA6E00106519 /* HBLNetworkDataUpload.m */; };
+		C51EC95E1D38CA8600106519 /* HBLNetworkTrafficManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C51EC95D1D38CA8600106519 /* HBLNetworkTrafficManager.m */; };
+		C51EC9641D38D3DF00106519 /* HBLCommonConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = C51EC9631D38D3DF00106519 /* HBLCommonConfig.m */; };
+		C51EC9691D38D74F00106519 /* BIFUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = C51EC9681D38D74F00106519 /* BIFUUID.m */; };
+		C51EC96C1D38D7CC00106519 /* BIFSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = C51EC96B1D38D7CC00106519 /* BIFSingleton.m */; };
+		C51EC96F1D38D81F00106519 /* BIFObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C51EC96E1D38D81F00106519 /* BIFObject.m */; };
+		C51EC9721D38DA4400106519 /* BIFKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = C51EC9711D38DA4400106519 /* BIFKeychain.m */; };
+		C51EC9751D3A0BDE00106519 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = C51EC9741D3A0BDE00106519 /* ViewController1.m */; };
+		C51EC9781D3A0C2300106519 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = C51EC9771D3A0C2300106519 /* ViewController2.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C51EC90F1D3690F100106519 /* HBLNetworkTraffic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HBLNetworkTraffic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C51EC9131D3690F100106519 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C51EC9151D3690F100106519 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C51EC9161D3690F100106519 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C51EC9181D3690F100106519 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C51EC9191D3690F100106519 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C51EC91C1D3690F100106519 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C51EC91E1D3690F100106519 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C51EC9211D3690F100106519 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C51EC9231D3690F100106519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C51EC92E1D36916E00106519 /* HBLNetworkObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBLNetworkObserver.h; sourceTree = "<group>"; };
+		C51EC92F1D36916E00106519 /* HBLNetworkObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBLNetworkObserver.m; sourceTree = "<group>"; };
+		C51EC9311D36921900106519 /* HBLNetworkInternalRequestState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBLNetworkInternalRequestState.h; sourceTree = "<group>"; };
+		C51EC9321D36921900106519 /* HBLNetworkInternalRequestState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBLNetworkInternalRequestState.m; sourceTree = "<group>"; };
+		C51EC9341D36925500106519 /* HBLNetworkObserver+NSURLConnectionHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HBLNetworkObserver+NSURLConnectionHelpers.h"; sourceTree = "<group>"; };
+		C51EC9351D36925500106519 /* HBLNetworkObserver+NSURLConnectionHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HBLNetworkObserver+NSURLConnectionHelpers.m"; sourceTree = "<group>"; };
+		C51EC9371D3692D700106519 /* HBLNetworkObserver+NSURLSessionTaskHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HBLNetworkObserver+NSURLSessionTaskHelpers.h"; sourceTree = "<group>"; };
+		C51EC9381D3692D700106519 /* HBLNetworkObserver+NSURLSessionTaskHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HBLNetworkObserver+NSURLSessionTaskHelpers.m"; sourceTree = "<group>"; };
+		C51EC93A1D36934700106519 /* HBLNetworkRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBLNetworkRecorder.h; sourceTree = "<group>"; };
+		C51EC93B1D36934700106519 /* HBLNetworkRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBLNetworkRecorder.m; sourceTree = "<group>"; };
+		C51EC93D1D36939A00106519 /* HBLNetworkTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBLNetworkTransaction.h; sourceTree = "<group>"; };
+		C51EC93E1D36939A00106519 /* HBLNetworkTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBLNetworkTransaction.m; sourceTree = "<group>"; };
+		C51EC9401D3693F600106519 /* HBLNetworkUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBLNetworkUtility.h; sourceTree = "<group>"; };
+		C51EC9411D3693F600106519 /* HBLNetworkUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBLNetworkUtility.m; sourceTree = "<group>"; };
+		C51EC9431D36947F00106519 /* HBLNetworkTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HBLNetworkTestViewController.h; path = network/HBLNetworkTestViewController.h; sourceTree = "<group>"; };
+		C51EC9441D36947F00106519 /* HBLNetworkTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HBLNetworkTestViewController.m; path = network/HBLNetworkTestViewController.m; sourceTree = "<group>"; };
+		C51EC9451D36947F00106519 /* HBLNetworkTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HBLNetworkTestViewController.xib; path = network/HBLNetworkTestViewController.xib; sourceTree = "<group>"; };
+		C51EC9591D38CA6E00106519 /* HBLNetworkDataUpload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBLNetworkDataUpload.h; sourceTree = "<group>"; };
+		C51EC95A1D38CA6E00106519 /* HBLNetworkDataUpload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBLNetworkDataUpload.m; sourceTree = "<group>"; };
+		C51EC95C1D38CA8600106519 /* HBLNetworkTrafficManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBLNetworkTrafficManager.h; sourceTree = "<group>"; };
+		C51EC95D1D38CA8600106519 /* HBLNetworkTrafficManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBLNetworkTrafficManager.m; sourceTree = "<group>"; };
+		C51EC9621D38D3DF00106519 /* HBLCommonConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBLCommonConfig.h; sourceTree = "<group>"; };
+		C51EC9631D38D3DF00106519 /* HBLCommonConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBLCommonConfig.m; sourceTree = "<group>"; };
+		C51EC9671D38D74F00106519 /* BIFUUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIFUUID.h; sourceTree = "<group>"; };
+		C51EC9681D38D74F00106519 /* BIFUUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIFUUID.m; sourceTree = "<group>"; };
+		C51EC96A1D38D7CC00106519 /* BIFSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIFSingleton.h; sourceTree = "<group>"; };
+		C51EC96B1D38D7CC00106519 /* BIFSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIFSingleton.m; sourceTree = "<group>"; };
+		C51EC96D1D38D81F00106519 /* BIFObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIFObject.h; sourceTree = "<group>"; };
+		C51EC96E1D38D81F00106519 /* BIFObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIFObject.m; sourceTree = "<group>"; };
+		C51EC9701D38DA4400106519 /* BIFKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIFKeychain.h; sourceTree = "<group>"; };
+		C51EC9711D38DA4400106519 /* BIFKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIFKeychain.m; sourceTree = "<group>"; };
+		C51EC9731D3A0BDE00106519 /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		C51EC9741D3A0BDE00106519 /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
+		C51EC9761D3A0C2300106519 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		C51EC9771D3A0C2300106519 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C51EC90C1D3690F100106519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C51EC9061D3690F100106519 = {
+			isa = PBXGroup;
+			children = (
+				C51EC9111D3690F100106519 /* HBLNetworkTraffic */,
+				C51EC9101D3690F100106519 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C51EC9101D3690F100106519 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C51EC90F1D3690F100106519 /* HBLNetworkTraffic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C51EC9111D3690F100106519 /* HBLNetworkTraffic */ = {
+			isa = PBXGroup;
+			children = (
+				C51EC9661D38D74900106519 /* libary */,
+				C51EC92D1D36915D00106519 /* network */,
+				C51EC9151D3690F100106519 /* AppDelegate.h */,
+				C51EC9161D3690F100106519 /* AppDelegate.m */,
+				C51EC9181D3690F100106519 /* ViewController.h */,
+				C51EC9191D3690F100106519 /* ViewController.m */,
+				C51EC9731D3A0BDE00106519 /* ViewController1.h */,
+				C51EC9741D3A0BDE00106519 /* ViewController1.m */,
+				C51EC9761D3A0C2300106519 /* ViewController2.h */,
+				C51EC9771D3A0C2300106519 /* ViewController2.m */,
+				C51EC9431D36947F00106519 /* HBLNetworkTestViewController.h */,
+				C51EC9441D36947F00106519 /* HBLNetworkTestViewController.m */,
+				C51EC9451D36947F00106519 /* HBLNetworkTestViewController.xib */,
+				C51EC91B1D3690F100106519 /* Main.storyboard */,
+				C51EC91E1D3690F100106519 /* Assets.xcassets */,
+				C51EC9201D3690F100106519 /* LaunchScreen.storyboard */,
+				C51EC9231D3690F100106519 /* Info.plist */,
+				C51EC9121D3690F100106519 /* Supporting Files */,
+			);
+			path = HBLNetworkTraffic;
+			sourceTree = "<group>";
+		};
+		C51EC9121D3690F100106519 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C51EC9131D3690F100106519 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C51EC92D1D36915D00106519 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				C51EC92E1D36916E00106519 /* HBLNetworkObserver.h */,
+				C51EC92F1D36916E00106519 /* HBLNetworkObserver.m */,
+				C51EC9311D36921900106519 /* HBLNetworkInternalRequestState.h */,
+				C51EC9321D36921900106519 /* HBLNetworkInternalRequestState.m */,
+				C51EC9341D36925500106519 /* HBLNetworkObserver+NSURLConnectionHelpers.h */,
+				C51EC9351D36925500106519 /* HBLNetworkObserver+NSURLConnectionHelpers.m */,
+				C51EC9371D3692D700106519 /* HBLNetworkObserver+NSURLSessionTaskHelpers.h */,
+				C51EC9381D3692D700106519 /* HBLNetworkObserver+NSURLSessionTaskHelpers.m */,
+				C51EC93A1D36934700106519 /* HBLNetworkRecorder.h */,
+				C51EC93B1D36934700106519 /* HBLNetworkRecorder.m */,
+				C51EC93D1D36939A00106519 /* HBLNetworkTransaction.h */,
+				C51EC93E1D36939A00106519 /* HBLNetworkTransaction.m */,
+				C51EC9401D3693F600106519 /* HBLNetworkUtility.h */,
+				C51EC9411D3693F600106519 /* HBLNetworkUtility.m */,
+				C51EC9591D38CA6E00106519 /* HBLNetworkDataUpload.h */,
+				C51EC95A1D38CA6E00106519 /* HBLNetworkDataUpload.m */,
+				C51EC95C1D38CA8600106519 /* HBLNetworkTrafficManager.h */,
+				C51EC95D1D38CA8600106519 /* HBLNetworkTrafficManager.m */,
+				C51EC9621D38D3DF00106519 /* HBLCommonConfig.h */,
+				C51EC9631D38D3DF00106519 /* HBLCommonConfig.m */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		C51EC9661D38D74900106519 /* libary */ = {
+			isa = PBXGroup;
+			children = (
+				C51EC9671D38D74F00106519 /* BIFUUID.h */,
+				C51EC9681D38D74F00106519 /* BIFUUID.m */,
+				C51EC96A1D38D7CC00106519 /* BIFSingleton.h */,
+				C51EC96B1D38D7CC00106519 /* BIFSingleton.m */,
+				C51EC96D1D38D81F00106519 /* BIFObject.h */,
+				C51EC96E1D38D81F00106519 /* BIFObject.m */,
+				C51EC9701D38DA4400106519 /* BIFKeychain.h */,
+				C51EC9711D38DA4400106519 /* BIFKeychain.m */,
+			);
+			path = libary;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C51EC90E1D3690F100106519 /* HBLNetworkTraffic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C51EC9261D3690F100106519 /* Build configuration list for PBXNativeTarget "HBLNetworkTraffic" */;
+			buildPhases = (
+				C51EC90B1D3690F100106519 /* Sources */,
+				C51EC90C1D3690F100106519 /* Frameworks */,
+				C51EC90D1D3690F100106519 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HBLNetworkTraffic;
+			productName = HBLNetworkTraffic;
+			productReference = C51EC90F1D3690F100106519 /* HBLNetworkTraffic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C51EC9071D3690F100106519 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Benlinhuo;
+				TargetAttributes = {
+					C51EC90E1D3690F100106519 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = C51EC90A1D3690F100106519 /* Build configuration list for PBXProject "HBLNetworkTraffic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C51EC9061D3690F100106519;
+			productRefGroup = C51EC9101D3690F100106519 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C51EC90E1D3690F100106519 /* HBLNetworkTraffic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C51EC90D1D3690F100106519 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C51EC9471D36947F00106519 /* HBLNetworkTestViewController.xib in Resources */,
+				C51EC9221D3690F100106519 /* LaunchScreen.storyboard in Resources */,
+				C51EC91F1D3690F100106519 /* Assets.xcassets in Resources */,
+				C51EC91D1D3690F100106519 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C51EC90B1D3690F100106519 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C51EC9421D3693F600106519 /* HBLNetworkUtility.m in Sources */,
+				C51EC9361D36925500106519 /* HBLNetworkObserver+NSURLConnectionHelpers.m in Sources */,
+				C51EC95E1D38CA8600106519 /* HBLNetworkTrafficManager.m in Sources */,
+				C51EC91A1D3690F100106519 /* ViewController.m in Sources */,
+				C51EC9171D3690F100106519 /* AppDelegate.m in Sources */,
+				C51EC95B1D38CA6E00106519 /* HBLNetworkDataUpload.m in Sources */,
+				C51EC9391D3692D700106519 /* HBLNetworkObserver+NSURLSessionTaskHelpers.m in Sources */,
+				C51EC9751D3A0BDE00106519 /* ViewController1.m in Sources */,
+				C51EC96F1D38D81F00106519 /* BIFObject.m in Sources */,
+				C51EC9461D36947F00106519 /* HBLNetworkTestViewController.m in Sources */,
+				C51EC9331D36921900106519 /* HBLNetworkInternalRequestState.m in Sources */,
+				C51EC93C1D36934700106519 /* HBLNetworkRecorder.m in Sources */,
+				C51EC93F1D36939A00106519 /* HBLNetworkTransaction.m in Sources */,
+				C51EC9691D38D74F00106519 /* BIFUUID.m in Sources */,
+				C51EC9641D38D3DF00106519 /* HBLCommonConfig.m in Sources */,
+				C51EC96C1D38D7CC00106519 /* BIFSingleton.m in Sources */,
+				C51EC9721D38DA4400106519 /* BIFKeychain.m in Sources */,
+				C51EC9781D3A0C2300106519 /* ViewController2.m in Sources */,
+				C51EC9141D3690F100106519 /* main.m in Sources */,
+				C51EC9301D36916E00106519 /* HBLNetworkObserver.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C51EC91B1D3690F100106519 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C51EC91C1D3690F100106519 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C51EC9201D3690F100106519 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C51EC9211D3690F100106519 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C51EC9241D3690F100106519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C51EC9251D3690F100106519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C51EC9271D3690F100106519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HBLNetworkTraffic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.angejia.member.HBLNetworkTraffic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C51EC9281D3690F100106519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HBLNetworkTraffic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.angejia.member.HBLNetworkTraffic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C51EC90A1D3690F100106519 /* Build configuration list for PBXProject "HBLNetworkTraffic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C51EC9241D3690F100106519 /* Debug */,
+				C51EC9251D3690F100106519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C51EC9261D3690F100106519 /* Build configuration list for PBXNativeTarget "HBLNetworkTraffic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C51EC9271D3690F100106519 /* Debug */,
+				C51EC9281D3690F100106519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C51EC9071D3690F100106519 /* Project object */;
+}
